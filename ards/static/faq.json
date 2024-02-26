@@ -1,10 +1,58 @@
 [
     {
-        "question": "What is ARDS?",
-        "answer": "nanigga"
+        "question": "How does the archival system work?",
+        "answer": "The archival system works by using advanced technology to convert physical documents into digital format. It uses a process called table detection and character recognition to accurately capture and store information from the documents."
     },
     {
-        "question": "How does the ARDS Image to Text Works?",
-        "answer": "Check out this guide to learn how to get started and start developing websites even faster with components on top of Tailwind CSS."
+        "question": "What types of documents can be archived using this system?",
+        "answer": "This system can archive various types of documents, including student records, transcripts, certificates, and any other documents related to university administration."
+    },
+    {
+        "question": "Can I upload multiple documents at once?",
+        "answer": "Yes, you can upload multiple documents at once using the system's batch upload feature. This allows you to save time and easily archive a large number of documents."
+    },
+    {
+        "question": "Is there a limit to the number of documents I can upload?",
+        "answer": "There is no specific limit to the number of documents you can upload. You can upload as many documents as you need, depending on your archival requirements."
+    },
+    {
+        "question": "How long does it take to process and tag documents after uploading?",
+        "answer": "The processing time for documents can vary depending on the number of documents uploaded and the system's current workload. However, in general, documents are processed and tagged within a few minutes to a few hours."
+    },
+    {
+        "question": "Can I search for documents by student name or other criteria?",
+        "answer": "Yes, you can search for documents using various criteria, including student name, document type, date, and any other relevant information. This makes it easy to find specific documents quickly."
+    },
+    {
+        "question": "Is there a way to correct errors in the tagged documents?",
+        "answer": "Yes, you can correct errors in the tagged documents using the system's editing tools. This allows you to ensure that the archived documents are accurate and up-to-date."
+    },
+    {
+        "question": "What security measures are in place to protect student records?",
+        "answer": "The system employs robust security measures to protect student records, including encryption, access controls, and regular security audits. This ensures that student records are kept safe and secure."
+    },
+    {
+        "question": "How can I access archived documents once they are tagged?",
+        "answer": "You can access archived documents through the system's user interface. Once documents are tagged, they are organized and stored in a way that makes them easy to access and retrieve."
+    },
+    {
+        "question": "Can I export archived data for analysis or backup purposes?",
+        "answer": "Yes, you can export archived data for analysis or backup purposes. The system allows you to export data in various formats, making it easy to use the archived data for different purposes."
+    },
+    {
+        "question": "What do I do if I encounter technical issues with the system?",
+        "answer": "If you encounter technical issues with the system, you can contact our technical support team for assistance. They will help you resolve any issues and ensure that the system is running smoothly."
+    },
+    {
+        "question": "Is there a user guide or tutorial available for using the archival system?",
+        "answer": "Yes, there is a user guide available for using the archival system. The user guide provides detailed instructions on how to use the system's features and functions."
+    },
+    {
+        "question": "Are there any fees associated with using the archival system?",
+        "answer": "There are no fees associated with using the archival system. It is provided as a free service to university staff and administrators."
+    },
+    {
+        "question": "Can I request additional features or enhancements to the system?",
+        "answer": "Yes, you can request additional features or enhancements to the system. Your feedback is valuable to us, and we are constantly working to improve the system based on user input."
     }
 ]

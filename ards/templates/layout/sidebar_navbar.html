@@ -1,0 +1,76 @@
+<aside class="bg-gray-50 w-48 h-screen left-0 p-2">
+    <div class="p-1 divide-y divide-gray-500">
+        <!-- Header Section -->
+        <div class="flex">
+            <div class="flex flex-col space-y-1 items-center my-2 mx-auto">
+                <img src="../../static/images/logo.png" alt="Logo" class="size-12 m-auto rounded-full">
+                <h6 class="m-auto  text-gray-800 text-lg font-bold ">
+                    Website Name
+                </h6>
+            </div>
+        </div>
+        <!-- Body Section -->
+        <div class="flex">
+            <ul class="flex flex-col space-y-1">
+                <li>
+                    <a href="{{url_for('account_pages.dashboard', username=session['username'])}}"
+                        class="w-full text-gray-800 hover:text-black block p-2 {% if request.path == url_for('landing_pages.home') %}border-l-3 border-red-800 {% else %}  hover:border-l-3 hover:border-red-800 {% endif %}">
+                        <svg class="h-5 w-5 inline-block mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+                        </svg>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{url_for('account_pages.archives', username=session['username'])}}"
+                        class="w-full text-gray-800 hover:text-black block p-2 {% if request.path == url_for('landing_pages.home') %}border-l-3 border-red-800 {% else %}  hover:border-l-3 hover:border-red-800 {% endif %}">
+                        <svg class="h-5 w-5 inline-block mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+                        </svg>
+                        Archives
+                    </a>
+                </li>
+                <li>
+                    <a href="{{url_for('account_pages.upload', username=session['username'])}}"
+                        class="w-full text-gray-800 hover:text-black block p-2 {% if request.path == url_for('landing_pages.home') %}border-l-3 border-red-800 {% else %}  hover:border-l-3 hover:border-red-800 {% endif %}">
+                        <svg class="h-5 w-5 inline-block mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+                        </svg>
+                        Upload
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="flex">
+            <ul class="flex flex-col space-y-1">
+                <li><a href="{{url_for('account_pages.account', username=session['username'])}}"
+                        class="w-full text-gray-800 hover:text-black block p-2 {% if request.path == url_for('landing_pages.home') %}border-l-3 border-red-800 {% else %} hover:border-l-3 hover:border-red-800 {% endif %}">
+                        <svg class="h-5 w-5 inline-block mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+                        </svg>
+                        Account
+                    </a>
+                </li>
+                <li><a href="{{url_for('account_pages.logout')}}"
+                        class="w-full text-gray-800 hover:text-black block p-2 {% if request.path == url_for('landing_pages.home') %}border-l-3 border-red-800 {% else %}  hover:border-l-3 hover:border-red-800 {% endif %}">
+                        <svg class="h-5 w-5 inline-block mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+                        </svg>
+                        Logout
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</aside>

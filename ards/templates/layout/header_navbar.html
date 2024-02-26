@@ -14,28 +14,28 @@
       <ul
         class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
         <li>
-          <a href="{{url_for('home')}}"
-            class="block py-2 px-3 text-gray-900 rounded {% if request.path == url_for('home') %}text-red-500{% else %}hover:text-red-700 dark:hover:text-red-500{% endif %} hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home
+          <a href="{{url_for('landing_pages.home')}}"
+            class="block py-2 px-3 text-gray-900 rounded {% if request.path == url_for('landing_pages.home') %}text-red-500{% else %}hover:text-red-700 dark:hover:text-red-500{% endif %} hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home
           </a>
         </li>
         <li>
-          <a href="{{url_for('about')}}"
-            class="block py-2 px-3 text-gray-900 rounded {% if request.path == url_for('about') %}text-red-500{% else %}hover:text-red-700 dark:hover:text-red-500{% endif %} hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About
+          <a href="{{url_for('landing_pages.about')}}"
+            class="block py-2 px-3 text-gray-900 rounded {% if request.path == url_for('landing_pages.about') %}text-red-500{% else %}hover:text-red-700 dark:hover:text-red-500{% endif %} hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About
           </a>
         </li>
         <li>
-          <a href="{{url_for('faq')}}"
-            class="block py-2 px-3 text-gray-900 rounded {% if request.path == url_for('faq') %}text-red-500{% else %}hover:text-red-700 dark:hover:text-red-500{% endif %} hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">FAQ
+          <a href="{{url_for('landing_pages.faq')}}"
+            class="block py-2 px-3 text-gray-900 rounded {% if request.path == url_for('landing_pages.faq') %}text-red-500{% else %}hover:text-red-700 dark:hover:text-red-500{% endif %} hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">FAQ
           </a>
         </li>
         <li>
-          <a href="{{url_for('contact')}}"
-            class="block py-2 px-3 text-gray-900 rounded {% if request.path == url_for('contact') %}text-red-500{% else %}hover:text-red-700 dark:hover:text-red-500{% endif %} hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact
+          <a href="{{url_for('landing_pages.contact')}}"
+            class="block py-2 px-3 text-gray-900 rounded {% if request.path == url_for('landing_pages.contact') %}text-red-500{% else %}hover:text-red-700 dark:hover:text-red-500{% endif %} hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact
           </a>
         </li>
         <li>
-          <a href="{{url_for('login')}}" class="
-          {% if request.path == url_for('login') %} object-none hidden {% else %}block py-0.5 px-4 text-white font-medium bg-red-700 rounded-lg hover:bg-red-800{% endif %}
+          <a href="{{url_for('landing_pages.login')}}" class="
+          {% if request.path == url_for('landing_pages.login') %} object-none hidden {% else %}block py-0.5 px-4 text-white font-medium bg-red-700 rounded-lg hover:bg-red-800{% endif %}
           ">
             Log in
           </a>

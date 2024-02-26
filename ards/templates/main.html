@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}ards{% endblock %}</title>
+    <link rel="icon" type="image/x-icon" href="../static/images/usep-logo.png">
+    <link rel="stylesheet" href="{{url_for('static',filename='dist/css/output.css')}}" />
+</head>
+
+<body class="flex flex-row ">
+    <div id="sidebar" class="flex">
+        {% include '/layout/sidebar_navbar.html' %}
+    </div>
+        
+    <div id="container" class="flex w-full">
+        {% block content %}
+
+        {% endblock %}
+    </div>
+
+    <script src="{{ url_for('static', filename='node_modules/flowbite/dist/flowbite.min.js') }}"></script>
+</body>
+
+</html>
